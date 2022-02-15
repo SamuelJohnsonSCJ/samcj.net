@@ -24,13 +24,13 @@ a {
 	color: #ff8c00;
 }
 
-.pixel {
+/*.pixel {
 	image-rendering: -webkit-optimize-contrast;
 	image-rendering: -moz-crisp-edges;
 	image-rendering: pixelated;
 	image-rendering: crisp-edges;
 	-ms-interpolation-mode: nearest-neighbor;
-}
+}*/
 
 .overflow {
 	overflow: auto;
@@ -110,7 +110,7 @@ footer a {
 
 footer p {
 	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 /* 404 */
