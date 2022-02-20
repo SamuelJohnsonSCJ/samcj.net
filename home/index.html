@@ -11,15 +11,16 @@
 		<!--[if lt IE 9]><script type="text/javascript">var IE_fix=true;</script><![endif]-->
 		<script type="text/javascript">
 			var url = "https://samcj.net";
-			if(typeof IE_fix != "undefined")
-			{
+			if(typeof IE_fix != "undefined") {
 				document.write("redirecting...");
 				var referLink = document.createElement("a");
 				referLink.href = url;
 				document.body.appendChild(referLink);
 				referLink.click();
-		 }
-		 else { window.location.replace(url); }
+			}
+			else {
+				window.location.replace(url);
+			}
 		</script>
 		<!-- Credit goes to http://insider.zone/ -->
 		<title>Redirecting...</title>
