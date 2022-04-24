@@ -79,7 +79,8 @@ header nav {
 	margin-top: 10px;
 }
 
-header .highlight, header .current a {
+header .highlight,
+header .current a {
 	color: #ff8c00;
 	font-weight: bold;
 }
@@ -108,7 +109,7 @@ footer {
 
 footer a {
 	text-decoration: underline;
-	color: #ffffff
+	color: #ffffff;
 }
 
 footer p {
@@ -130,8 +131,11 @@ footer p {
 }
 
 /* Media Queries */
-@media(max-width: 768px) {
-	header #site-title, header nav, header nav li, .section div {
+@media (max-width: 768px) {
+	header #site-title,
+	header nav,
+	header nav li,
+	.section div {
 		float: none;
 		text-align: center;
 		width: 100%;
